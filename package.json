@@ -1,0 +1,22 @@
+{
+  "name": "tailty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:style": "tailwindcss -i ./src/tailwind/tailwind.css -o ./src/assets/styles.css --minify",
+    "build": "npm run build:style && eleventy",
+    "dev": "eleventy --watch --serve",
+    "style": "tailwindcss -i ./src/tailwind/tailwind.css -o ./src/assets/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
