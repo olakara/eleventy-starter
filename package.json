@@ -1,5 +1,5 @@
 {
-  "name": "tailty",
+  "name": "eleventy-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "build:style": "tailwindcss -i ./src/tailwind/tailwind.css -o ./src/assets/styles.css --minify",
     "build": "npm run build:style && eleventy",
     "dev": "eleventy --watch --serve",
-    "style": "tailwindcss -i ./src/tailwind/tailwind.css -o ./src/assets/styles.css --watch"
+    "style": "tailwindcss -i ./src/tailwind/tailwind.css -o ./src/assets/css/styles.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,8 @@
     "postcss": "^8.3.6",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.1"
   }
 }
