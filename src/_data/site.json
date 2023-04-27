@@ -1,0 +1,7 @@
+{
+    "name": "11ty Starter Project",
+    "url": "http://localhost:8080",
+    "authorName": "Author Name",    
+    "description": "A small description about the site",
+    "favicon": "http://localhost:8080/assets/images/meta/favicon.svg"
+  }
